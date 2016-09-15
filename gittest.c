@@ -18,7 +18,7 @@ int main(){
 	unsigned int year;
 	float x,y;
  	top:
-	printf("Menu...\n{1} Factorial of a number\n{2} Leap year or not\n{3} Maximum\n{4} Division of two numbers\n{5} Exit\n~");
+	printf("Menu...\n{1} Factorial of a number\n{2} Leap year or not\n{3} Maximum\n{4} Division of two numbers\n{5} Pat yourself on the back!\n{6} Exit\n~");
 	scanf("%d", &sel);
 	switch (sel){
 		case 1 :
@@ -57,6 +57,8 @@ int main(){
 			printf("result is %f\n", (float)div1/(float)div2);
 			break;
 		case 5:
+			printf("Congratulations, you understand git\n");
+		case 6:
 			exit(1);
 			break;
 	};
